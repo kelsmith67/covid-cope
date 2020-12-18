@@ -1,0 +1,148 @@
+/* .middle_finger{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+} 
+
+.middle_finger:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }  */
+
+  .flex-container {
+    display: flex;
+    justify-content: center; 
+    -webkit-align-items: center;
+    align-items: center;
+ }
+ .flex-item1 {
+     display:flex;
+     justify-content: center; 
+ align-items: center;
+ height: 2000px;
+  margin: 300px;
+ padding: 40px;
+ }
+.flex-item1 img{
+flex-grow:0;
+flex-shrink:0;
+width: 700px;
+height: 700px;
+}
+
+.flex-item2 {
+    display:flex;
+    justify-content: center; 
+align-items: center;
+height: 2000px;
+ margin: 300px;
+padding: 40px;
+}
+.flex-item2 img{
+flex-grow:0;
+flex-shrink:0;
+width: 700px;
+height: 700px;
+}
+.flex-item3 {
+    display:flex;
+    justify-content: center; 
+align-items: center;
+height: 2000px;
+ margin: 300px;
+padding: 40px;
+}
+.flex-item3 img{
+flex-grow:0;
+flex-shrink:0;
+width: 700px;
+height: 700px;
+}
+  
+  .flex-container:hover .flex-item1{
+    opacity: 0.3;
+  }
+  /* .flex-container:hover .flex-item2{
+    opacity: 0.3;
+  }
+  .flex-container:hover .flex-item3{
+    opacity: 0.3;
+  } */
+
+  .flex-container:hover .middle {
+    opacity: 50;
+  }
+  /* .flex-container:hover .middle2 {
+    opacity: 50;
+  }
+  .flex-container:hover .middle3 {
+    opacity: 50;
+  }
+   */
+  .text {
+    background-color: #FF0000;
+    color: white;
+    font-size: 100px;
+    padding: 100px 200px;
+    cursor: pointer;
+  }
+
+
+
+
+ 
+/* .middlefinger {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .middlefinger:hover {
+    opacity: 0.3;
+  }
+  
+  .middle:hover {
+    opacity: 50;
+  }
+  
+  .text {
+    background-color: #FF0000;
+    color: white;
+    font-size: 100px;
+    padding: 100px 200px;
+  } */
+/* .flex-container {
+    display: flex;    
+    justify-content: left;
+    flex-direction: column;
+    float:left
+
+  } 
+  
+.flex-item:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  } 
+
+.flex-item{
+    width: 700px;
+    height: 700px;
+  }
+
+/* img {
+    float:left;
+}
+h3{
+    float:right;
+    font-size: 50px;
+} */
